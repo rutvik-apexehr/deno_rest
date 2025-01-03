@@ -41,7 +41,6 @@ const config: {
   host: Deno.env.get('HOST') as unknown as string,
   port: Number(Deno.env.get('PORT') as unknown as number),
   protocol: Deno.env.get('PROTOCOL') as unknown as string,
-  mongoUrl: Deno.env.get('MONGO_URI') as unknown as string,
   dbName: Deno.env.get('DB_NAME') as unknown as string,
   seed: Boolean(Deno.env.get('SEED') === 'true'),
   clientHost: Deno.env.get('CLIENT_HOST') as unknown as string,
